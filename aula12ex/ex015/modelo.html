@@ -13,11 +13,20 @@
     </header>
     <section>
         <div id="form">
-           Ano de Nascimento <input type="number" name="Ano" id="ano"><br>
-           Sexo <input type="checkbox" name="masc" id="masc">Masculino <input type="checkbox" name="fem" id="fem"> Feminino
-           <input type="button" value="Verificar" onclick="clicar()">
+           <p>Ano de Nascimento 
+            <input type="number" name="txtano" id="ano" min="1900"></p>
+
+          <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+          </p>
+          <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
         </div>
-        <div id="resul">
+        <div id="res">
             Preencha os dados acima para ver o resultado!
         </div>
     </section>
