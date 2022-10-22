@@ -32,7 +32,7 @@ function verificar(){
             document.body.style.background = 'pink'
             if(idade >=0 && idade < 10) {
                 //criança
-                img.setAttribute('src', 'menina.png')
+                img.setAttribute('src', 'menina.png') //adc imagem de forma dinâmica com js
             } else if (idade < 21 ) {
                 //jovem
                 img.setAttribute('src', 'jovem f.png')
@@ -46,7 +46,8 @@ function verificar(){
         }
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${gênero} com idade ${idade} anos`
-        res.appendChild(img)
+        res.appendChild(img) // mostrar a imagem adc de forma dinamica com js
+        
 
 
 
