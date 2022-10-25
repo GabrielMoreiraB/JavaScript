@@ -33,6 +33,15 @@ function adicionar () {
 }
 
 function finalizar (){
-    res.innerHTML = `Ao todo, temos ${valores.length} números cadastrados`
-
+    valores.sort()
+    let t = valores.length
+    let soma = 0
+    res.innerHTML = `Ao todo, temos ${t} números cadastrados <br>`
+    res.innerHTML += `O maior valor informado foi ${valores[t-1]}<br>`
+    res.innerHTML += `O menor valor informado foi ${valores[0]}<br>`
+    for(let c =0; c < t; c++){
+        soma = soma + valores[c]
+    }
+    res.innerHTML += `Somando todos os valores temos ${soma}<br>`
+    res.innerHTML += `A media dos valores digitados é ${soma/t}<br>`
 }
