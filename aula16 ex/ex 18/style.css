@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-color: blueviolet;
+    background-color: rgb(32, 155, 186);
     font: normal 15pt arial;
 }
 header{
@@ -15,6 +15,9 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.284);
 
+}
+select{
+    width: 150px;
 }
 footer{
     color: white;
