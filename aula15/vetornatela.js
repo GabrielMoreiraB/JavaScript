@@ -14,3 +14,4 @@ for(let i in valores) {
 
 let pos = valores.indexOf(8)
 console.log(`o valor 8 esta na posição ${pos}`)
+console.log(valores)
