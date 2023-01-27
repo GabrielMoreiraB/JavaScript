@@ -14,7 +14,4 @@ for(let i=0; i<lista.length;i++){
 
     li.appendChild(textoLi);
     listaNoBody[0].appendChild(li);
-
-
-    console.log(lista[i]);
 }
