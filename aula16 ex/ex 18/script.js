@@ -15,12 +15,9 @@ function inLista(n, l){
         return false
     }else {
     return true
-<<<<<<< HEAD
+
 }
 }
-=======
-}}
->>>>>>> 659933306706c9c41aa50b2ef52eb98b3f115aee
 
 function adicionar () {
     
@@ -36,9 +33,7 @@ function adicionar () {
     num.value = ''
     num.focus()
 }
-<<<<<<< HEAD
-console.log(valores)
-=======
+
 
 function finalizar (){
     valores.sort()
@@ -53,4 +48,4 @@ function finalizar (){
     res.innerHTML += `Somando todos os valores temos ${soma}<br>`
     res.innerHTML += `A media dos valores digitados é ${soma/t}<br>`
 }
->>>>>>> 659933306706c9c41aa50b2ef52eb98b3f115aee
+
