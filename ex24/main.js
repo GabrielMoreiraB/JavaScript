@@ -1,3 +1,4 @@
+
 const lista = ['laranja', 'maçã', 'banana', 'pera', 'jaca', 'limao'];
 
 const listaul = document.createElement('ul');
