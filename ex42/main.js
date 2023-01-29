@@ -1,12 +1,5 @@
-const title = document.querySelector('h1');
+const title = document.querySelector('#title');
+title.setAttribute('class', 'testando-atributo');
 
-const p = document.createElement('h2');
-const texto = document.createTextNode('Gabriel Moreira');
-
-p.appendChild(texto)
-
-const pai = title.parentNode;
-
-pai.replaceChild(p, title)
-
-
+const btn = document.querySelector('#btn');
+btn.setAttribute('disabled', 'disabled')
